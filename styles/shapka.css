@@ -1,0 +1,27 @@
+.shapka {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 715px;
+  padding-left: 135px;
+  padding-right: 135px;
+  padding-bottom: 119px;
+  padding-top: 20px;
+  background-color: #10b582;
+}
+
+.shapka ul {
+  display: flex;
+  list-style-type: none;
+  width: 22px;
+  height: 126px;
+  padding: 0%;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.shapka-left {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: space-between;
+}

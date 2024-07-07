@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  height: 24px;
+  padding-left: 395px;
+  padding-right: 395px;
+  padding-top: 41px;
+  background-color: #10b582;
+  justify-content: center;
+}
+
+.header ul {
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Raleway";
+  flex-flow: row nowrap;
+  list-style-type: none;
+  align-items: flex-start;
+  width: 650px;
+}
+
+.header ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fdfdfd;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.header ul li:hover {
+  transition-duration: 0.2s;
+  position: relative;
+  bottom: 2px;
+  transform: scale(1.1);
+  border-bottom: 2px dashed #fa9f42;
+}
