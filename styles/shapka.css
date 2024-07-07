@@ -6,7 +6,7 @@
   padding-left: 135px;
   padding-right: 135px;
   padding-bottom: 119px;
-  padding-top: 20px;
+  padding-top: 100px;
   background-color: #10b582;
 }
 
@@ -14,7 +14,7 @@
   display: flex;
   list-style-type: none;
   width: 22px;
-  height: 126px;
+  height: 140px;
   padding: 0%;
   flex-flow: column nowrap;
   justify-content: space-between;
@@ -23,5 +23,112 @@
 .shapka-left {
   display: flex;
   flex-flow: column nowrap;
-  align-content: space-between;
+  justify-content: space-between;
+  height: 100%;
+  width: 270px;
+}
+
+.shapka-left div {
+  border: 2px dashed #fdfdfd;
+  border-radius: 0 80px 0 0;
+  position: relative;
+  left: 30px;
+  bottom: 70px;
+  width: 270px;
+  height: 330px;
+}
+
+#photo1 {
+  position: relative;
+  top: 30px;
+  right: 30px;
+  width: 270px;
+  height: 330px;
+}
+
+.shapka-center {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  font-family: "Raleway";
+  width: 600px;
+  height: 600px;
+  text-align: center;
+}
+
+#logotype {
+  width: 170px;
+  height: 22px;
+  align-self: center;
+  margin-top: 40px;
+  position: relative;
+  top: 10px;
+}
+
+.shapka-center h3 {
+  font-weight: 500;
+  font-size: 58px;
+  color: #fdfdfd;
+  margin-top: 120px;
+  margin-bottom: 15px;
+}
+
+.shapka-center p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #fdfdfd;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-bottom: 60px;
+}
+
+.shapka-center a {
+  display: flex;
+  border-radius: 0 20px;
+  width: 230px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fdfdfd;
+  background-color: #fa9f42;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.shapka-right {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 270px;
+  height: 100%;
+}
+
+#scroll {
+  width: 14px;
+  height: 160px;
+  padding-bottom: 100px;
+  align-self: flex-end;
+}
+
+#photo2 {
+  border-radius: 60px 0 0 0;
+  width: 270px;
+  height: 330px;
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
+
+.shapka-right div {
+  width: 270px;
+  height: 330px;
+  border: 2px dashed #fdfdfd;
+  border-radius: 60px 0 0 0;
+  position: relative;
+  right: 30px;
+  bottom: 30px;
 }
