@@ -1,0 +1,75 @@
+.courses-variants {
+  background-color: white;
+  padding: 100px 135px 100px 135px;
+  height: 460px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courses-variants ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0%;
+  width: 1500px;
+}
+
+.courses-variants ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  height: 296px;
+}
+
+.courses-variants ul li img {
+  width: 330px;
+  height: 286px;
+  transition: ease-in-out 0.3s;
+}
+
+.courses-variants p {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 100%;
+  text-align: center;
+  color: #353a5a;
+  margin: 0%;
+}
+
+.courses-variants a {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #fdfdfd;
+  border-radius: 0 20px;
+  width: 230px;
+  height: 56px;
+  background-color: #10b582;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  top: 40px;
+  transition: ease-in-out 0.3s;
+  margin: 2px 0;
+}
+
+.courses-variants a:hover {
+  width: 240px;
+  height: 60px;
+  margin: 0%;
+}
+
+.courses-variants ul li img:hover {
+  width: 340px;
+  height: 296px;
+}

@@ -18,6 +18,11 @@
   padding: 0%;
   flex-flow: column nowrap;
   justify-content: space-between;
+  transition-duration: 0.5s;
+}
+
+.shapka ul li:hover {
+  transform: scale(1.1);
 }
 
 .shapka-left {
@@ -30,7 +35,7 @@
 
 .shapka-left div {
   border: 2px dashed #fdfdfd;
-  border-radius: 0 80px 0 0;
+  border-radius: 0 65px 0 0;
   position: relative;
   left: 30px;
   bottom: 70px;
@@ -39,11 +44,31 @@
 }
 
 #photo1 {
+  animation: 1s ease-in-out 1s normal both move-photo1-outside;
   position: relative;
-  top: 30px;
-  right: 30px;
+  top: 0px;
+  right: 0px;
   width: 270px;
   height: 330px;
+  transition: ease-in-out 1s;
+}
+
+@keyframes move-photo1-outside {
+  0% {
+    position: relative;
+    top: 0px;
+    right: 0px;
+  }
+
+  100% {
+    position: relative;
+    top: 30px;
+    right: 30px;
+  }
+}
+
+#photo1:hover {
+  transform: translate(30px, -30px);
 }
 
 .shapka-center {
@@ -89,6 +114,7 @@
   border-radius: 0 20px;
   width: 230px;
   height: 56px;
+  margin: 2px 0;
   font-weight: 500;
   font-size: 16px;
   color: #fdfdfd;
@@ -97,6 +123,13 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  transition: ease-in-out 0.2s;
+}
+
+.shapka-center a:hover {
+  width: 240px;
+  height: 60px;
+  margin: 0;
 }
 
 .shapka-right {
@@ -115,19 +148,39 @@
 }
 
 #photo2 {
+  animation: 1s ease-in-out 1s normal both move-photo2-outside;
   border-radius: 64px 0 0 0;
   width: 270px;
   height: 330px;
   position: relative;
   left: 30px;
   top: 30px;
+  transition: ease-in-out 1s;
+}
+
+@keyframes move-photo2-outside {
+  0% {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+
+  100% {
+    position: relative;
+    top: 30px;
+    left: 30px;
+  }
+}
+
+#photo2:hover {
+  transform: translate(-30px, -30px);
 }
 
 .shapka-right div {
   width: 270px;
   height: 330px;
   border: 2px dashed #fdfdfd;
-  border-radius: 80px 0 0 0;
+  border-radius: 72px 0 0 0;
   position: relative;
   right: 30px;
   bottom: 30px;

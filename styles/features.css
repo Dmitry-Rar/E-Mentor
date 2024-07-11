@@ -1,0 +1,137 @@
+.features {
+  height: 708px;
+  padding: 100px 135px 100px;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.features ul {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 107px;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0%;
+  width: 100%;
+  margin: 0%;
+}
+
+.features ul li {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  width: 270px;
+  font-family: "Raleway";
+  align-items: center;
+  text-align: center;
+}
+
+.features ul li p {
+  margin: 10px;
+}
+
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #353a5a;
+  padding: 0 10px 0;
+}
+
+.features div {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 472px;
+  width: 100%;
+}
+
+#features-left {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  width: 500px;
+  height: 385px;
+  font-family: "Raleway";
+  align-items: flex-start;
+  padding-left: 60px;
+  margin-top: 40px;
+}
+
+.features-left-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #353a5a;
+  margin: 0%;
+  padding: 0 10px 0;
+}
+
+#features-left-header {
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 100%;
+  color: #353a5a;
+  margin: 0%;
+}
+
+#features-left a {
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fdfdfd;
+  background-color: #10b582;
+  border-radius: 0 20px;
+  width: 230px;
+  height: 56px;
+  margin: 22px 0 2px 0;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out 0.2s;
+  text-decoration: none;
+}
+
+#tutors {
+  display: flex;
+  flex-flow: row wrap;
+  width: 570px;
+  height: 472px;
+  align-content: space-between;
+  justify-content: space-between;
+  list-style-type: none;
+  font-family: "Raleway";
+  padding-right: 60px;
+}
+
+#tutors li {
+  height: 184px;
+  width: 170px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #353a5a;
+}
+
+#tutors li p {
+  margin: 25px 0 0 0;
+}
+
+.features-numbers {
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 100%;
+  text-align: center;
+  color: #10b582;
+}
+
+#features-left a:hover {
+  width: 240px;
+  height: 60px;
+  margin: 20px 0 0 0;
+}
